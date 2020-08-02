@@ -2,8 +2,11 @@
   "expo": {
     "name": "Login-Database-Example",
     "slug": "Login-Database-Example",
+    "description": "An example of storing simple information like login credentials into a relational database using expo-sqlite and a very simple Caesar shift encryption format.",
     "version": "1.0.0",
+    "privacy": "public",
     "orientation": "portrait",
+    "githubUrl": "https://github.com/EdwardRees/React-Native-Login-Database-Example",
     "icon": "./assets/icon.png",
     "splash": {
       "image": "./assets/splash.png",
@@ -13,9 +16,7 @@
     "updates": {
       "fallbackToCacheTimeout": 0
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*"],
     "ios": {
       "supportsTablet": true
     },
